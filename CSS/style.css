@@ -1,0 +1,83 @@
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-Bold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-ExtraBlack.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-Light.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-Regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-SemiBold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(YekanBakh/YekanBakhFaNum-Thin.ttf);
+    font-weight: 300;
+}
+
+body, button {
+    font-family: yekanbakhsh;
+}
+a {
+    text-decoration: unset;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0;
+    align-items: center;
+}
+header img {
+    width: 150px;
+    height: 75px;
+}
+.header__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.header__link a {
+    color: black;
+}
+.header__button img {
+    width: 50px;
+    height: auto;
+}
+.header__button button {
+    background-color: #fff;
+    border: unset;
+}
+.header__search {
+    position: relative;
+}
+.header__search img {
+    position: absolute;
+    left: 0;
+    bottom: 0.1px;
+    width: 40px;
+}
+header input {
+    border: unset;
+    border-bottom: 2px solid #852221;
+}
