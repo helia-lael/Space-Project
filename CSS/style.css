@@ -57,10 +57,11 @@ header input {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 4px 4px 10px gray;
 }
 .section__body--banner img {
     margin-bottom: -50px;
-    width: 630px;    
+    width: 30%;    
 }
 .section__body--text {
     font: 800 50px 'yekanbakhsh';
@@ -93,6 +94,7 @@ header input {
     align-items: center;
     width: 80%;
     background-color: #E4D1B3;
+    box-shadow: 5px 5px 10px gray;
     border-radius: 50px 0 0 50px;
     margin-top: 8%;
 }
@@ -100,7 +102,7 @@ header input {
     color: #A91825;
     margin-right: 5%;
     font-size: 30px;
-    line-height: 15px;
+    line-height: 3rem;
 }
 .section2__body--trust {
     display: flex;
@@ -113,4 +115,18 @@ header input {
     flex-direction: column;
     width: 30%;
     align-items: center;
+    color: #384D26;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+}
+.section3__scroll2--eachpro {
+    display: flex;
+    flex-direction: column;
+}
+.section3__scroll2--like, .section3__scroll2--proprice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
