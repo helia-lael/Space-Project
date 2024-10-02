@@ -1,0 +1,35 @@
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-ExtraBlack);
+    font-weight: 950;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-Black);
+    font-weight: 900;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-Bold);
+    font-weight: 700;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-SemiBold);
+    font-weight: 600;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-Regular);
+    font-weight: 400;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-Light);
+    font-weight: 300;
+}
+@font-face {
+    font-family: yekanbakhsh;
+    src: url(../fonts/yekanbakhsh/YekanBakhFaNum-Thin);
+    font-weight: 100;
+}

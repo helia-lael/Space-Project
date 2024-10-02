@@ -1,41 +1,10 @@
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-Black.ttf);
-    font-weight: 900;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-Bold.ttf);
-    font-weight: 800;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-ExtraBlack.ttf);
-    font-weight: 700;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-Light.ttf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-Regular.ttf);
-    font-weight: 500;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-SemiBold.ttf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: yekanbakhsh;
-    src: url(YekanBakh/YekanBakhFaNum-Thin.ttf);
-    font-weight: 300;
-}
+@import url(../assets/fonts/yekanbakhsh.css);
 
 body, button {
     font-family: yekanbakhsh;
+}
+body {
+    margin: 5px 0;
 }
 a {
     text-decoration: unset;
@@ -80,4 +49,68 @@ header img {
 header input {
     border: unset;
     border-bottom: 2px solid #852221;
+}
+
+.section__body--banner {
+    background-color: #E4D1B3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section__body--banner img {
+    margin-bottom: -50px;
+    width: 630px;    
+}
+.section__body--text {
+    font: 800 50px 'yekanbakhsh';
+}
+.section__body--quot {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.section__body--button{
+    margin-right: 20%;
+}
+.section__body--button button {
+    border-radius: 49.5px;
+    border: unset;
+    font-size: 20px;
+}
+.section__body--button button:first-child {
+    background-color: #384D26;
+    color: #fff;
+}
+.section__body--button button:last-child {
+    background-color: #A91825;
+    color: #fff;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    background-color: #E4D1B3;
+    border-radius: 50px 0 0 50px;
+    margin-top: 8%;
+}
+.section2__body--question {
+    color: #A91825;
+    margin-right: 5%;
+    font-size: 30px;
+    line-height: 15px;
+}
+.section2__body--trust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section2__body--eachtrust {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
 }
