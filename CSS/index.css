@@ -9,6 +9,8 @@ body {
 a {
     text-decoration: unset;
 }
+
+/*header*/
 header {
     display: flex;
     flex-direction: row;
@@ -51,6 +53,7 @@ header input {
     border-bottom: 2px solid #852221;
 }
 
+/*section1*/
 .section__body--banner {
     background-color: #E4D1B3;
     display: flex;
@@ -88,6 +91,8 @@ header input {
     background-color: #A91825;
     color: #fff;
 }
+
+/*section2*/
 .section2 {
     display: flex;
     flex-direction: row;
@@ -117,16 +122,47 @@ header input {
     align-items: center;
     color: #384D26;
 }
+
+/*section3*/
 .section3 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #A91825;
+    margin-top: 5%;
+    border-radius: 50px;
+    align-items: center;
 }
 .section3__scroll2--eachpro {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.section3__scroll2--like button {
+    background-color: unset;
+    border: unset;
+}
+
+.section3__scroll2--proprice button {
+    background-color: #384D26;
+    border: unset;
+    border-radius: 8px;
+    height: 30px;
 }
 .section3__scroll2--like, .section3__scroll2--proprice {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.section3__scroll2--title h4 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.section3__scroll2--title button {
+    background-color: #E6E2D9;
+    color: #A91825;
+    border-radius: 50px;
+    border: unset;
 }
