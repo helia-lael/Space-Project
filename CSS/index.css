@@ -129,7 +129,7 @@ header input {
 .section3 {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    width: 95%;
     background-color: #A91825;
     margin-top: 5%;
     border-radius: 50px 0 0 50px;
