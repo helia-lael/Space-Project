@@ -40,38 +40,11 @@ body,html{
             .login__title--content p{
                 opacity: 50%;
             }
-            .login__title--content h1{
-                opacity: 0;
-                transform: translateY(-20px);
-                animation: fadeIn 1s forwards;
-            }
-
-            /* RED SIDE TITLE ANIMATION */
-            @keyframes fadeIn{    
-                to{
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
             .login__title--content img{
                 width: 45%;
                 height: auto;
                 display: block;
-                animation: tea-cup-animation 5s infinite; /* Adjust the animation duration and loop */
             }
-            /* RED SIDE IMAGE TEA CUP ANIMATION */
-            @keyframes tea-cup-animation {
-                0% {
-                  transform: translateX(0);
-                }
-                50% {
-                  transform: translateX(-10px);
-                }
-                100% {
-                  transform: translateX(0);
-                }
-              }
     .login__form{
         background-color: #e4d1b3;
         width: 40%;
@@ -123,10 +96,7 @@ body,html{
                 text-align: center;
                 transition: 0.2s;
             }
-            .login__form--btn:hover{
-                box-shadow: 0 0 0 4px #fff,
-                0 0 0 6px #a91825;
-            }
+            
 
 
   

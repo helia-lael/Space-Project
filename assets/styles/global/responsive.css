@@ -1,0 +1,279 @@
+/* ______________________________برای دسکتاپ‌ها با عرض بیشتر از 1200 پیکسل _______________________________*/
+
+
+@media (min-width: 1200px) {
+
+    /* ========
+    LOGIN PAGE
+    ======== */
+    
+        .login {
+            flex-direction: row;
+        }
+        .login__title {
+            width: 60%;
+            height: 100vh;
+        }
+        .login__title--content {
+            margin-top: 10%;
+            font-size: 90%;
+        }
+        .login__form {
+            width: 40%;
+            height: 100vh;
+        }
+        .login__form form {
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            width: 45%;
+        }
+        .login__form input {
+            font-size: 20px;
+            padding: 12px;
+            width: 70%;
+        }
+        .login__form--btn {
+            font-size: 20px;
+            padding: 12px;
+            width: 40%;
+        }
+  }
+  
+  /*____________________________ برای دسکتاپ‌ها با عرض بین 992 تا 1200 پیکسل _______________________________*/
+
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+   /* ========
+    LOGIN PAGE
+    ======== */
+
+        .login {
+            flex-direction: row;
+        }
+        .login__title {
+            width: 60%;
+            height: 100vh;
+        }
+        .login__title--content {
+            margin-top: 12%;
+            font-size:85%;
+        }
+        .login__form {
+            width: 40%;
+            height: 100vh;
+        }
+        .login__form form {
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+        }
+        .login__form input {
+            font-size: 18px;
+            padding: 10px;
+        }
+        .login__form--btn {
+            font-size: 18px;
+            padding: 10px;
+            width: 40%;
+        }
+  }
+  
+  /* _____________________برای تبلت‌ها با عرض بین 768 تا 992 پیکسل __________________________*/
+
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+    /* ========
+    LOGIN PAGE
+    ======== */
+
+        .login {
+            flex-direction: row;
+        }
+        .login__title {
+            width: 55%;
+            height: 100vh;
+        }
+        .login__title--content {
+            margin-top: 15%;
+            font-size: 75%;
+        }
+        .login__form {
+            width: 45%;
+            height: 100vh;
+        }
+        .login__form form {
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+        }
+        .login__form input {
+            font-size: 16px;
+            padding: 8px;
+        }
+        .login__form--btn {
+            font-size: 16px;
+            padding: 8px;
+            width: 40%;
+        }
+    }
+    
+  /*___________________ برای گوشی‌های با عرض بین 480 تا 768 پیکسل ________________________*/
+
+  
+  @media (min-width: 480px) and (max-width: 768px) {
+
+    /* ========
+    LOGIN PAGE
+    ======== */
+
+        .login {
+            flex-direction: row;
+        }
+        .login__title {
+            width: 55%;
+            height: 100vh;
+        }
+        .login__title--content {
+            margin-top: 15%;
+            font-size: 55%;
+        }
+        .login__form {
+            width: 54%;
+            height: 100vh;
+        }
+        .login__form form {
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            width: 45%;
+            height: 60vh;
+        }
+        .login__form input {
+            font-size: 14px;
+            padding: 6px;
+        }
+        .login__form--btn {
+            font-size: 14px;
+            padding: 6px;
+            width: 40%;
+        }
+        .login__title--content img{
+            width: 60%;
+        }
+    }
+    
+  /* ____________________برای گوشی‌های با عرض کمتر از 480 پیکسل ___________________________*/
+
+  @media (max-width: 480px) {
+
+    /* ========
+    LOGIN PAGE
+    ======== */
+
+        .login {
+        flex-direction: column;
+        height: 100vh;
+        }
+        .login__title {
+        width: 100%;
+        height: 50vh;
+        }
+        .login__title--content {
+        margin-top: 25%;
+        font-size: 50%;
+        justify-content:center;
+        /* margin-top: -10%; */
+        margin-left: 0;
+        }
+        .login__title--content p{
+        display: none;
+        }
+        .login__title--content img{
+        margin-bottom: -130%;
+        margin-top: 100px;
+        width: 60%;
+        }
+        .login__title--content h1{
+        margin-top:-20% ;
+        margin-bottom: 100%;
+        }
+        .login__form {
+        width: 100%;
+        height: 50vh;
+        }
+        .login__form form {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 50vh;
+        }
+        .login__form input {
+        font-size: 10px;
+        padding: 4px;
+        }
+        .login__form--btn{
+        width: 40%;
+        font-size: 10px;
+        }}
+        
+  /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
+
+  @media (max-width: 320px) {
+
+
+    /* ========
+    LOGIN PAGE
+    ======== */
+
+        .login {
+            flex-direction: column;
+        }
+        .login__title {
+            width: 100%;
+            height: 50vh;
+        }
+        .login__title--content {
+            margin-top: 25%;
+            font-size: 50%;
+            justify-content:center;
+            /* margin-top: -10%; */
+            margin-left: 0;
+        }
+        .login__title--content p{
+            display: none;
+        }
+        .login__title--content img{
+            margin-bottom: -150%;
+            margin-top: 120px;
+            width: 60%;
+        }
+        .login__title--content h1{
+            margin-bottom: 100%;
+        }
+        .login__form {
+            width: 100%;
+            height: 50vh;
+        }
+        .login__form form {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 75%;
+            height: 45vh;
+        }
+        .login__form input {
+            font-size: 10px;
+            padding: 4px;
+        }
+        .login__form--btn{
+            width: 40%;
+            font-size: 10px;
+        }
+    }
+        
