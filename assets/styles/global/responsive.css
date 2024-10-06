@@ -120,6 +120,35 @@
             padding: 8px;
             width: 40%;
         }
+
+        /* =============
+           CONTACT PAGE
+          ============= */
+        .section__forms {
+            font-size: 16px;
+            margin-top: 15%;
+        }  
+        .header__container {
+            height: 50px;
+        }
+        .header__nav-item a {
+            font-size: 15px;
+        }
+        .header__nav-list {
+            width: 150%;
+            justify-content: unset;
+            margin-right: -170px;
+        }
+        .header__account {
+            margin-left: -2%;
+        }
+        .header__icons {
+            margin-left: -3%;
+        }
+        .header__logo img {
+            width: 40%;
+            margin-right: 6%;
+        }
     }
     
   /*___________________ برای گوشی‌های با عرض بین 480 تا 768 پیکسل ________________________*/
@@ -165,6 +194,11 @@
         .login__title--content img{
             width: 60%;
         }
+
+        /*===============
+            CONTACT PAGE
+          ===============*/
+        
     }
     
   /* ____________________برای گوشی‌های با عرض کمتر از 480 پیکسل ___________________________*/
