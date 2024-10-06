@@ -10,44 +10,58 @@
     <!--===============
             header
         ===============-->
-    <header>
-      <img
-        class="header__logo"
-        src="../assets/img/icon-etc/logo-header.png"
-        alt="logo"
-      />
-      <div class="header__link">
-        <a href="#">خانه</a>
-        <a href="#">درباره ما</a>
-        <a href="#">محصولات</a>
-        <a href="#">وبلاگ</a>
+        <header class="header">
+          <div class="header__container">
+              <!-- Logo -->
+              <div class="header__logo">
+                  <a href="#" class="header__logo-link">
+                      <img src="../assets/img/icon-etc/logo-header.png" alt="Logo" class="header__logo-img">
+                  </a>
+              </div>
+  
+              <!-- Main Navigation -->
+              <nav class="header__nav">
+                  <ul class="header__nav-list">
+                      <li class="header__nav-item"><a href="#" class="header__nav-link">صفحه اصلی</a></li>
+                      <li class="header__nav-item"><a href="#" class="header__nav-link">فروشگاه</a></li>
+                      <li class="header__nav-item"><a href="#" class="header__nav-link">مقالات</a></li>
+                      <li class="header__nav-item"><a href="#" class="header__nav-link">تماس با ما</a></li>
+                      <li class="header__nav-item"><a href="#" class="header__nav-link">درباره ما</a></li>
+                  </ul>
+              </nav>
+  
+              <!-- Icons -->
+              <div class="header__icons">
+                  <a href="#" class="header__icon header__icon--cart">
+                      <img src="../assets/img/icon-etc/Shopping cart (1).svg" alt="Cart">
+                  </a>
+                  <a href="#" class="header__icon header__icon--search">
+                      <img src="../assets/img/icon-etc/Search (1).svg" alt="Search">
+                  </a>
+              </div>
+  
+              <!-- Account Button -->
+              <div class="header__account">
+                  <button class="header__account-button">
+                      <a href="#" class="header__icon header__icon--account">
+                          <img src="../assets/img/icon-etc/User.svg" alt="Account">
+                      </a>
+                      حساب کاربری
+                  </button>
+                  
+              </div>
+          </div>
+      </header>
+      <!-- hero banner -->
+      <div class="banner">
+          <div class="banner__overlay"></div>
+          <div class="banner__text">
+              شیـرینی زندگـی‌تان را با کـاتریـن دو چنـدان کنید.
+              <p>طعمی ناب از دل طبیعت تا سفره های شما !</p>
+              </br>
+              <a href="#" class="banner__button">مشاهده فروشگاه</a>
+          </div>
       </div>
-      <div class="header__search">
-        <input type="search" />
-        <img src="../assets/img/icon-etc/icon-search.svg" />
-      </div>
-      <div class="header__button">
-        <button>
-          <img src="../assets/img/icon-etc/icon-login.svg" />
-        </button>
-      </div>
-    </header>
-
-    <!--=============
-        first Banner
-        =============-->
-    <section class="section__body--banner">
-      <div class="section__body--quot">
-        <div class="section__body--text">
-          شیرینی زندگی‌تان را به ما بسپارید!
-        </div>
-        <div class="section__body--button">
-          <button>محصولات پرفروش</button>
-          <button>تماس با ما</button>
-        </div>
-      </div>
-      <img src="../assets/img/icon-etc/scroll-1.png" />
-    </section>
 
     <!--========================
         section1: TRUST section
@@ -231,5 +245,8 @@
       </div>
 
     </section>
+    <!------------------
+        Blog Section
+  ------------------->
   </body>
 </html>

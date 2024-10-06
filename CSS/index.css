@@ -10,89 +10,154 @@ a {
     text-decoration: unset;
 }
 
-/*header*/
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 0;
-    align-items: center;
+:root {
+    --red-color: #A91825;
+    --white-color: #E6E2D9;
+    --cream-color: #E4D1B3;
+    --dark-cream-color: #BD7346;
+    --brown-color: #673304;
+    --green-color: #218838;
+    --green-hover-color:#28a745;
 }
-header img {
-    width: 150px;
-    height: 75px;
-}
-.header__link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 40%;
-}
-.header__link a {
-    color: black;
-}
-.header__button img {
-    width: 50px;
-    height: auto;
-}
-.header__button button {
-    background-color: #fff;
-    border: unset;
-}
-.header__search {
-    position: relative;
-}
-.header__search img {
-    position: absolute;
+/* --header section --*/
+
+.header {
+    background-color: rgb(230,226,217);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
     left: 0;
-    bottom: 0.1px;
-    width: 40px;
-}
-header input {
-    border: unset;
-    border-bottom: 2px solid #852221;
+    z-index: 1000; /*  it stays on top of other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
 }
 
-/*section1*/
-.section__body--banner {
-    background-color: #E4D1B3;
+.header__container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    box-shadow: 4px 4px 10px gray;
+    justify-content: space-between;
 }
-.section__body--banner img {
-    margin-bottom: -50px;
-    width: 30%;    
-    margin-left: 1%;
-    margin-top: 1%;
+
+.header__logo-link {
+    display: inline-block;
 }
-.section__body--text {
-    font: 800 50px 'yekanbakhsh';
+
+.header__logo-img {
+    width: 60%;
+    margin-right:10px ;
 }
-.section__body--quot {
-    margin-right: 10%;
+
+.header__nav {
+    flex-grow: 1;
+    margin-right: 40px;
+}
+
+.header__nav-list {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 50px;
+    list-style: none;
 }
-.section__body--button{
-    margin-right: 20%;
+
+.header__nav-link {
+    color:var(--red-color);
+    text-decoration: none;
+    font-size: 16px;
 }
-.section__body--button button {
-    border-radius: 49.5px;
-    border: unset;
+
+.header__icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header__icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__account {
+    margin-right: 15px;
+}
+
+.header__account-button {
+    background-color: var(--green-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__account-button:hover {
+    background-color:var(--green-hover-color);
+}
+
+
+.banner {
+    
+    background-image: url('../assets/img/katrin/katrin1.jpg'); /* Replace with your uploaded image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top:0; /* فاصله‌ای به اندازه ارتفاع هدر برای بنر */
+    position: relative;
+}
+
+
+.banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark transparent overlay */
+    z-index: 1;
+}
+
+.banner__text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    backdrop-filter: blur(3px); /* Blur background behind text */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background behind text */
+    border-radius: 10px;
+}
+.banner__text p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: grey;
+
+
+}
+
+.banner__button {
+    margin-bottom: 5%;
+    padding: 10px 20px;
+    background-color:var(--green-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 40%;
     font-size: 20px;
 }
-.section__body--button button:first-child {
-    background-color: #384D26;
-    color: #fff;
+
+.banner__button:hover {
+    background-color: var(--green-hover-color);
 }
-.section__body--button button:last-child {
-    background-color: #A91825;
-    color: #fff;
-}
+
 
 /*section2*/
 .section2 {
