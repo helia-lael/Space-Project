@@ -1,7 +1,7 @@
 @import url(../assets/fonts/font.css);  
 
 body, button {
-    font-family: yekanbakhsh;
+    font-family: Yekan Bakh FaNum;
 }
 body {
     margin: 5px 0;
@@ -41,6 +41,7 @@ a {
 .header__logo-link {
     display: inline-block;
 }
+
 
 .header__logo-img {
     width: 60%;
@@ -95,7 +96,7 @@ a {
     background-color:var(--green-hover-color);
 }
 
-
+/* ---hero banner section--- */
 .banner {
     
     background-image: url('../assets/img/katrin/katrin1.jpg'); /* Replace with your uploaded image path */
@@ -194,7 +195,7 @@ a {
 .section3 {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    width: 95%;
     background-color: #A91825;
     margin-top: 5%;
     border-radius: 50px 0 0 50px;
