@@ -197,8 +197,50 @@
 
         /*===============
             CONTACT PAGE
-          ===============*/
-        
+          ===============*/ 
+        .section__forms {
+            justify-content: space-around;
+            margin-top: 20%;
+            font-size: 15px;
+        }
+        .header__logo img {
+            width: 100px;
+            margin-right: 10%;
+        }
+        .header__container {
+            height: 50px;
+        }
+        .header__nav-item a {
+            font-size: 13px;
+        }
+        .header__nav-list {
+            width: 100%;
+            justify-content: unset;
+            margin-right: -10%;
+            gap: 30px;
+        }
+        .header__account {
+            margin-left: 0%;
+        }
+        .header__account-button p {
+            display: none;
+        }
+        .header__icons{
+            display: none;
+        }
+        .form__contact--input {
+            gap: 35px;
+        }
+        .form__contact--input input {
+            font-size: 15px;
+        }
+        .form2__contact--list {
+            width: 70%;
+            margin-left: 0;
+        }
+        .form__contact--link img {
+            width: 30px;
+        }
     }
     
   /* ____________________برای گوشی‌های با عرض کمتر از 480 پیکسل ___________________________*/
@@ -254,7 +296,37 @@
         .login__form--btn{
         width: 40%;
         font-size: 10px;
-        }}
+        }
+
+        /*============
+          CONTACT PAGE
+          ============*/
+          body {
+            background-image: unset;
+          }
+        .section__forms {
+            flex-direction: column;
+            justify-content: unset;
+            align-items: unset;
+            margin-top: 25%;
+        }
+        .form__contact--input {
+            width: unset;
+            font-size: 18px;
+        }
+        .form__contact--input input {
+            font-size: 15px;
+        }
+        .form2__contact--list {
+            font-size: 15px;
+            background-color: unset;
+           align-items: start;
+           width: unset;
+        }
+        .form__contact--link img {
+            width: 20px;
+        }
+    }
         
   /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
 
