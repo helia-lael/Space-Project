@@ -3,10 +3,10 @@
 /* مانیتورهای بسیار بزرگ */
 @media (min-width: 1921px) {
     /* هدر */
-    .header__logo-img { width: 130%; }
+    .header__logo-img { width: 100%; }
     .header__icon{width: 50px;}
     .header__nav-list { gap: 60px; }
-    .header__nav-link{font-size: 40px;}
+    .header__nav-link{font-size: 30px;}
     .header__account-button{font-size: 20px;}
 
     /*============
@@ -56,7 +56,8 @@
 
 /* دسکتاپ بزرگ */
 @media (min-width: 1367px) and (max-width: 1920px) {
-    .header__logo-img { width: 100%; }
+    .header__logo-img { width: 60%; }
+    .header__nav-list { gap: 60px; }
     .header__icon{width: 20px;}
     /*============
           INDEX PAGE 
@@ -76,7 +77,7 @@
 /* لپ‌تاپ و دسکتاپ کوچک */
 @media (min-width: 1025px) and (max-width: 1366px) {
     /* هدر */
-    .header__logo-img { width: 100%; }
+    .header__logo-img { width: 50%; }
     .header__nav-list { gap: 50px; }
     .header__nav-link{font-size: 14px;}
     .header__icon{width: 20px;}
@@ -105,26 +106,7 @@
     
 /* تبلت */
 @media (min-width: 768px) and (max-width: 1024px) {
-    /* هدر */
-    .header__logo-img { width: 100%; }
-    .header__nav-link{font-size: 12px;}
-    .header__icon{width: 20px;}
-    .header__account-button{font-size: 8px;}
-    .header__nav {
-        flex-direction: row;
-        align-items: center;
-      }
-      
-      .header__nav-list {
-        gap: 40px;
-      }
-            
-      .header__icons {margin-left: 0;}
-      .header__account-button {
-        padding: 5px;
-        font-size: 12px;
-      }
-
+    
         /*============
           INDEX PAGE 
           ============*/
@@ -250,6 +232,18 @@
 
 
   @media (min-width: 768px) and (max-width: 992px) {
+    .header__logo-img { width: 50%; margin-left:40px; margin-right: 0;}
+    .header__nav-link{font-size: 10px;}
+    .header__icon{width: 18px;}
+    .header__icon--search{margin: 0 10px 0 50px;}
+    .header__account-button{font-size: 8px;
+    margin-left: 10px;}
+      .header__nav-list {
+        gap: 40px;
+      }
+            
+      .header__icons {margin-left: 0;}
+
 
     /* ========
     LOGIN PAGE
@@ -336,7 +330,7 @@
   /*___________________ برای گوشی‌های با عرض بین 480 تا 768 پیکسل ________________________*/
 
   
-  @media (min-width: 480px) and (max-width: 768px) {
+  @media (min-width: 480px) and (max-width: 767px) {
 
     /* ========
     LOGIN PAGE
@@ -455,11 +449,11 @@
         }
 
            /* هدر */
-        .header__logo-img { width: 100%; }
+        .header__logo-link { width:90px; margin: 0;}
         .header__nav-list { gap: 30px; }
-        .header__nav-link{font-size: 10px;}
+        .header__nav-link{font-size: 8px;}
         .header__icon{display: none;}
-        .header__account-button{font-size: 6px;}
+        .header__account-button{font-size: 10px;}
 
 
         /*============
