@@ -312,7 +312,7 @@
         }
         .form__contact--input {
             width: unset;
-            font-size: 18px;
+            font-size: 15px;
         }
         .form__contact--input input {
             font-size: 15px;
@@ -325,6 +325,29 @@
         }
         .form__contact--link img {
             width: 20px;
+        }
+        .header__logo img {
+           width: 80px;
+           margin-right: 15%;
+        }
+        .header__container {
+            height: 50px;
+            justify-content: unset;
+        }
+        .header__nav-item a {
+            font-size: 13px;
+        }
+        .header__account {
+            display: none;
+        }
+        .header__nav ul li:first-child {
+            display: none;
+        }
+        .header__icons {
+            display: none;
+        }
+        .header__nav {
+            margin-right: 0;
         }
     }
         
@@ -381,5 +404,30 @@
             width: 40%;
             font-size: 10px;
         }
+
+        /*============
+          CONTACT PAGE 
+          ============*/
+          .header__nav ul {
+            display: none;
+          }
+          header {
+            justify-content: unset;
+          }
+          .header__account {
+            display: flex;
+          }
+          * {
+            font-size: 15px;
+          }
+          .form__contact--input{
+            gap: 40px;
+          }
+          .form2__contact--list input {
+            font-size: 13px;
+          }
+          .header__icons {
+            display: flex;
+          }
     }
         
