@@ -149,6 +149,23 @@
             width: 40%;
             margin-right: 6%;
         }
+
+        /*=============
+          ABOUT US PAGE
+          =============*/
+        
+        .body__about h1 {
+            font-size: 25px;
+        }
+        .body__about p {
+            font-size: 15px;
+        }
+        .about__honors h1 {
+            font-size: 25px;
+        }
+        .honors__picture img {
+            width: 80px;
+        }
     }
     
   /*___________________ برای گوشی‌های با عرض بین 480 تا 768 پیکسل ________________________*/
@@ -240,6 +257,36 @@
         }
         .form__contact--link img {
             width: 30px;
+        }
+
+        /*=============
+          ABOUT US PAGE
+          =============*/
+
+        .body__about {
+            margin-top: 15%;
+        }
+          .body__about h1 {
+            font-size: 25px;
+        }
+        .body__about p {
+            font-size: 15px;
+        }
+        .body__about--pic-paragraph {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .body__about--pic-paragraph img {
+            width: 70%;
+        }
+        .about__honors h1 {
+            font-size: 25px;
+        }
+        .honors__picture img {
+            width: 70px;
+        }
+        .honors__picture1-hover {
+            font-size: 13px;
         }
     }
     
@@ -349,8 +396,38 @@
         .header__nav {
             margin-right: 0;
         }
-    }
-        
+
+
+        /*=============
+          ABOUT US PAGE
+          =============*/
+        .body__about {
+            margin-top: 20%;
+        }
+          .body__about h1 {
+            font-size: 25px;
+        }
+        .body__about p {
+            font-size: 15px;
+        }
+        .body__about--pic-paragraph {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .body__about--pic-paragraph img {
+            width: 80%;
+        }
+        .about__honors h1 {
+            font-size: 20px;
+        }
+        .honors__picture img {
+            width: 60px;
+        }
+        .honors__picture1-hover {
+            font-size: 13px;
+        }
+     }
+
   /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
 
   @media (max-width: 320px) {
@@ -429,5 +506,32 @@
           .header__icons {
             display: flex;
           }
-    }
+
+
+          /*=============
+            ABOUT US PAGE
+            =============*/
+          .body__about {
+              margin-top: 30%;
+          }
+            .body__about h1 {
+              font-size: 20px;
+          }
+          .body__about p {
+              font-size: 13px;
+          }
+          .body__about--pic-paragraph {
+              flex-direction: column-reverse;
+              align-items: center;
+          }
+          .about__honors h1 {
+              font-size: 20px;
+          }
+          .honors__picture img {
+              width: 60px;
+          }
+          .honors__picture1-hover {
+              font-size: 13px;
+          }
+     }
         

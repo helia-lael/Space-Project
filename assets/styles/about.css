@@ -1,12 +1,15 @@
-body {
+* {
     font-family: Yekan Bakh FaNum;
 }
 
+.body__about {
+    margin-top: 10%;
+}
 .body__about h1 {
     font-size: 30px;
 }
 .body__about img {
-    width: 100%;
+    width: 45vw;
     height: 100%;
 }
 .body__about--pic-paragraph {
@@ -14,4 +17,53 @@ body {
     font-size: 20px;
     text-align: justify;
     gap: 10%;
+}
+.honors__picture {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.honors__picture img {
+    width: 150px;
+}
+.honors__each-picture {
+    background-color: var(--cream-color);
+display: flex;
+align-items: center;
+justify-content: center;
+/* انیمیشن بخش دسته‌بندی‌ها */
+overflow: hidden;
+position: relative;
+transition: transform 0.3s ease;
+}
+.honors__each-picture:hover {
+    transform: scale(1.05);   /* انیمیشن بخش دسته‌بندی‌ها */
+}
+.honors__each-picture img {
+    transition: transform 0.3s ease;
+}
+/* تنظیمات برای کاور محو */
+.honors__picture1-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* رنگ کاور محو */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    
+}
+/* تنظیمات برای افکت هاور */
+.honors__each-picture:hover .honors__picture1-hover {
+    opacity: 1;
+}
+.honors__picture1-hover:hover img {
+    transform: scale(1.1);
 }
