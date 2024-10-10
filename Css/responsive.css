@@ -57,6 +57,11 @@
     .product__card { width: 23%; }
     /* پیشنهاد شگفت انگیز */
     .Offer .product__grid .product__card{width: 30%;}
+    /*=============
+          product PAGE
+          =============*/
+          
+          .collection__filter{font-size: 40px;}
     
 }
 
@@ -598,7 +603,16 @@
         .footer__contact{margin: 10% 0;}
         .footer__contact{display: block;}
     }
+     /*=============
+          product PAGE
+          =============*/
+        .search-bar{display: none;}
+        .collection__filter{font-size: 10px;}
+        .products__nav{width: 20px;
+            font-size: 10px;
         
+}
+          
   /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
 
   @media (max-width: 320px) {

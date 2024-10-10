@@ -387,7 +387,7 @@ input[type="radio"]:checked + .navigation .nav-dot {
   }
   .feature {
     flex: 1 1 200px;
-    max-width: 30%;
+    /* max-width: 30%; */
     padding: 20px;
     /* background-color: white; */
     border-radius: 8px;
