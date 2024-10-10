@@ -170,3 +170,141 @@ input[type="radio"]:checked + .navigation .nav-dot {
 .search-bar__filter img {
   width: 70%;
 }
+
+
+
+.products {
+    text-align: center;
+    padding: 20px;
+  }
+  .products__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .products__subtitle {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  .products__carousel {
+    display: flex;
+    align-items: center;
+  }
+  .products__nav {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px;
+    /* margin: 0 10px; */
+    border-radius: 50%;
+  }
+
+  .products__nav:hover{
+    background-color: var(--green-hover-color);
+  }
+  .products__list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+  /* تنظیمات برای کارت محصول */
+  .product__grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+  .product__card {
+    background-color:var(--cream-color);
+    padding: 20px;
+    border-radius: 10px;
+    width:20%;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+ /* انیمیشن برای کارت محصول در هاور */
+ .product__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.product__card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+/* انیمیشن برای زوم کردن تصویر در هاور */
+.product__card:hover img {
+    transform: scale(1.05);
+}
+
+.product__title{
+    /* font-size: 1.1rem; */
+    margin: 10px 0;
+    transition: color 0.3s ease;
+
+}
+
+.product__price{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product__price--discounted {
+    color:var(--green-color);
+    /* font-weight: bold; */
+}
+
+.product__price--original {
+    text-decoration: line-through;
+    color:var(--red-color);
+}
+
+.product__stars {
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;  /* انیمیشن برای ستاره‌ها */
+
+}
+
+.product__stars img {
+    width: 20px;
+    height: 20px;
+}
+
+/* انیمیشن برای آیکون‌های خرید و علاقه‌مندی‌ها */
+.product__cart-icon {
+    float: right;
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product__cart-icon  img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    transition: transform 0.3s ease;
+
+}
+.product__cart-icon img:hover {
+    transform: scale(1.3);
+}
