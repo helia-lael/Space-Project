@@ -2,12 +2,6 @@
 
 /* مانیتورهای بسیار بزرگ */
 @media (min-width: 1921px) {
-    /* هدر */
-    .header__logo-img { width: 100%; }
-    .header__icon{width: 50px;}
-    .header__nav-list { gap: 60px; }
-    .header__nav-link{font-size: 30px;}
-    .header__account-button{font-size: 20px;}
 
     /*============
           INDEX PAGE 
@@ -56,9 +50,6 @@
 
 /* دسکتاپ بزرگ */
 @media (min-width: 1367px) and (max-width: 1920px) {
-    .header__logo-img { width: 60%; }
-    .header__nav-list { gap: 60px; }
-    .header__icon{width: 20px;}
     /*============
           INDEX PAGE 
           ============*/
@@ -76,13 +67,6 @@
 
 /* لپ‌تاپ و دسکتاپ کوچک */
 @media (min-width: 1025px) and (max-width: 1366px) {
-    /* هدر */
-    .header__logo-img { width: 50%; }
-    .header__nav-list { gap: 50px; }
-    .header__nav-link{font-size: 14px;}
-    .header__icon{width: 20px;}
-    .header__account-button{font-size: 10px;}
-    .header__icon--account img{padding: 0%;}
 
     /*============
           INDEX PAGE 
@@ -232,17 +216,7 @@
 
 
   @media (min-width: 768px) and (max-width: 992px) {
-    .header__logo-img { width: 50%; margin-left:40px; margin-right: 0;}
-    .header__nav-link{font-size: 10px;}
-    .header__icon{width: 18px;}
-    .header__icon--search{margin: 0 10px 0 50px;}
-    .header__account-button{font-size: 8px;
-    margin-left: 10px;}
-      .header__nav-list {
-        gap: 40px;
-      }
-            
-      .header__icons {margin-left: 0;}
+    
 
 
     /* ========
@@ -287,28 +261,7 @@
             font-size: 16px;
             margin-top: 15%;
         }  
-        .header__container {
-            height: 50px;
-        }
-        .header__nav-item a {
-            font-size: 15px;
-        }
-        .header__nav-list {
-            width: 150%;
-            justify-content: unset;
-            margin-right: -170px;
-        }
-        .header__account {
-            margin-left: -2%;
-        }
-        .header__icons {
-            margin-left: -3%;
-        }
-        .header__logo img {
-            width: 40%;
-            margin-right: 6%;
-        }
-
+        
         /*=============
           ABOUT US PAGE
           =============*/
@@ -379,31 +332,7 @@
             margin-top: 20%;
             font-size: 15px;
         }
-        .header__logo img {
-            width: 100px;
-            margin-right: 10%;
-        }
-        .header__container {
-            height: 50px;
-        }
-        .header__nav-item a {
-            font-size: 13px;
-        }
-        .header__nav-list {
-            width: 100%;
-            justify-content: unset;
-            margin-right: -10%;
-            gap: 30px;
-        }
-        .header__account {
-            margin-left: 0%;
-        }
-        .header__account-button p {
-            display: none;
-        }
-        .header__icons{
-            display: none;
-        }
+        
         .form__contact--input {
             gap: 35px;
         }
@@ -448,12 +377,6 @@
             font-size: 13px;
         }
 
-           /* هدر */
-        .header__logo-link { width:90px; margin: 0;}
-        .header__nav-list { gap: 30px; }
-        .header__nav-link{font-size: 8px;}
-        .header__icon{display: none;}
-        .header__account-button{font-size: 10px;}
 
 
         /*============
@@ -590,31 +513,7 @@
         .form__contact--link img {
             width: 20px;
         }
-        .header__logo img {
-           width: 80px;
-           margin-right: 15%;
-        }
-        .header__container {
-            height: 50px;
-            justify-content: unset;
-        }
-        .header__nav-item a {
-            font-size: 13px;
-        }
-        .header__account {
-            display: none;
-        }
-        .header__nav ul li:first-child {
-            display: none;
-        }
-        .header__icons {
-            display: none;
-        }
-        .header__nav {
-            margin-right: 0;
-        }
-
-
+        
         /*=============
           ABOUT US PAGE
           =============*/
@@ -645,12 +544,6 @@
         }
      
 
-              /* هدر */
-        .header__logo-img { width: 100%; }
-        .header__nav-list { gap: 20px; }
-        .header__nav-link{font-size: 6px;}
-        .header__icon{display: none;}
-        .header__account-button{font-size: 5px; display: none;}
 
 
 
@@ -667,8 +560,8 @@
         .category-section{margin-top: 10%;}
         .category-section__title ,.product__title{font-size: 20px;}
         .category{
-            width: 80px;
-            height: 80px;
+            width: 90px;
+            height: 90px;
         }
         /* محصولات */
         .product__card { width: 40%; }
@@ -768,15 +661,6 @@
         /*============
           CONTACT PAGE 
           ============*/
-          .header__nav ul {
-            display: none;
-          }
-          header {
-            justify-content: unset;
-          }
-          .header__account {
-            display: flex;
-          }
           * {
             font-size: 15px;
           }
@@ -817,16 +701,6 @@
               font-size: 13px;
           }
         
-
-          /* هدر */
-        .header__logo-img { width: 150%; }
-        .header__nav-list { gap: 20px; }
-        .header__nav-link{font-size: 6px;}
-        .header__icon{display: none;}
-        .header__account-button{font-size: 5px; display: none;}
-
-
-
         /*============
           INDEX PAGE 
           ============*/
