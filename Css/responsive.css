@@ -13,8 +13,8 @@
     .banner__button{font-size: 40px;}
     /* دسته بندی محصولات */
     .category{
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 600px;
       }
       /* محصولات */
     .product__card { width: 20%; }
@@ -543,10 +543,6 @@
             font-size: 13px;
         }
      
-
-
-
-
         /*============
           INDEX PAGE 
           ============*/
@@ -560,8 +556,8 @@
         .category-section{margin-top: 10%;}
         .category-section__title ,.product__title{font-size: 20px;}
         .category{
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
         }
         /* محصولات */
         .product__card { width: 40%; }
@@ -602,7 +598,6 @@
         .footer__contact{margin: 10% 0;}
         .footer__contact{display: block;}
     }
- 
         
   /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
 

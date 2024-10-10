@@ -135,7 +135,7 @@
 @media (min-width: 1921px) {
     /* هدر */
     .header__logo-img { 
-        width: 140%; 
+        width:200px; 
     }
     .header__icon{
         width: 40px;
@@ -158,10 +158,10 @@
 /* دسکتاپ بزرگ */
 @media (min-width: 1367px) and (max-width: 1920px) {
     .header__logo-img {
-         width: 110%; 
+        width:150px; 
         }
     .header__nav-link{
-        font-size: 20px;
+        font-size: 23px;
     }
     .header__icon img{
         width: 25px;
@@ -179,7 +179,7 @@
 @media (min-width: 1025px) and (max-width: 1366px) {
     /* هدر */
     .header__logo-img {
-         width: 80%; 
+         width:100px; 
     }
     .header__nav-list {
          gap: 50px; 
@@ -205,7 +205,7 @@
 /* تبلت */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* هدر */
-    .header__logo-img { width: 70%; }
+    .header__logo-img { width: 100px; }
     .header__nav-link{font-size: 12px;}
     .header__icon{width: 20px;}
     .header__icon--search{margin-left: 10px;}
@@ -240,7 +240,7 @@
 
   @media (min-width: 768px) and (max-width: 992px) {
     .header__logo-img {
-         width: 60%; margin-left:40px; margin-right: 0;
+         width: 90px; margin-left:40px; margin-right: 0;
     }
     .header__nav-link{
         font-size: 12px;
@@ -277,7 +277,7 @@
     
 
         .header__logo-img {
-             width: 55%; margin-left:40px; 
+             width: 85px;
              margin-right: 0;
             
             }
@@ -317,8 +317,7 @@
 
 
         .header__logo-img {
-             width: 45%;
-            margin-left:40px; 
+             width: 60px; 
             margin-right: 0;
         
         }
@@ -339,7 +338,7 @@
         
         }
           .header__nav-list {
-            gap: 20px;
+            gap: 10px;
           }
 
 
