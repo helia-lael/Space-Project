@@ -1,0 +1,172 @@
+/* Reset کلی برای همه عناصر */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekanbakhsh;
+}
+
+/* استایل پایه برای بدنه */
+body {
+    /* direction: rtl; */
+    margin-top: 100px;
+    background-color: var(--white-color);
+}
+
+
+/* تعریف متغیرهای رنگ‌ها */
+:root {
+    --red-color: #A91825;
+    --white-color: #E6E2D9;
+    --cream-color: #E4D1B3;
+    --dark-cream-color: #BD7346;
+    --brown-color: #673304;
+    --green-color: #218838;
+    --green-hover-color: #28a745;
+    --dark-green-color: #384d26;
+}
+
+.slider {
+    position: relative;
+    max-width:100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: ;
+}
+
+.slides {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+/* انیمیشن برای تغییر خودکار اسلایدها */
+@keyframes slideAnimation {
+    0% { 
+        transform: translateX(0); 
+    }
+    33.33% { 
+        transform: translateX(0); 
+    }
+    38.33% { 
+        transform: translateX(-100%); 
+    }
+    66.66% { 
+        transform: translateX(-100%); 
+    }
+    71.66% { 
+        transform: translateX(-200%); 
+    }
+    100% { 
+        transform: translateX(-200%); 
+    }
+}
+
+.slides {
+    animation: slideAnimation 12s infinite;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .navigation .nav-dot {
+    background-color: #717171;
+}
+
+
+
+
+/* Block: search-bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color:var(--cream-color);
+  padding: 10px;
+  border-radius: 0px;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Element: input */
+.search-bar__input {
+  /* flex: 1; */
+  padding: 10px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background-color:var(--white-color);
+  outline: none;
+  height: 50px;
+  width: 90%;
+}
+
+/* Element: button */
+.search-bar__button {
+  padding: 10px 20px;
+  background-color:var(--green-color);
+  color: white;
+  border: none;
+  border-radius: 10px  0 0 10px;
+  cursor: pointer;
+  height: 50px;
+  margin-left: 1%;
+
+}
+.search-bar__button img{width: 70%;}
+
+/* Element: filter */
+.search-bar__filter {
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color:var(--white-color);
+  color:#218838;
+  border-radius: 10px ;
+  height: 50px;
+}
+
+.search-bar__filter img {
+  width: 70%;
+}

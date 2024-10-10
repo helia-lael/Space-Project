@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/products.css">
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/global/header.css">
+    <title>product</title>
+</head>
+<body>
+    <!-- هدر -->
+    <header class="header" dir="rtl">
+        <div class="header__container">
+            <!-- لوگو -->
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="assets/images/icon-etc/logo-header.png" alt="Logo" class="header__logo-img">
+                </a>
+            </div>
+            <!-- منوی ناوبری -->
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">صفحه اصلی</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">فروشگاه</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">مقالات</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">تماس با ما</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">درباره ما</a></li>
+                </ul>
+            </nav>
+            <!-- آیکون‌ها -->
+            <div class="header__icons">
+                <a href="#" class="header__icon header__icon--cart">
+                    <img src="assets/images/icon-etc/Shopping cart (1).svg" alt="Cart">
+                </a>
+                <a href="#" class="header__icon header__icon--search">
+                    <img src="assets/images/icon-etc/Search (1).svg" alt="Search">
+                </a>
+            </div>
+            <!-- دکمه حساب کاربری -->
+            <div class="header__account">
+                <button class="header__account-button">
+                    <a href="#" class="header__icon header__icon--account">
+                        <img src="assets/images/icon-etc/User.svg" alt="Account">
+                    </a>
+                    حساب کاربری
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-bar" dir="rtl">
+        <input type="text" class="search-bar__input" placeholder="جستجو ...">
+        <button class="search-bar__button">
+            <img src="assets/images/icon-etc/Search bar.svg" alt="">
+        </button>
+        <button class="search-bar__filter">
+          <img src="assets/images/icon-etc/Filter.svg" alt="Filter icon" />
+        </button>
+    </div>
+      
+    <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+
+        <div class="slides">
+            <div class="slide">
+                <img src="assets/images/katrin/banner_Product01.svg" alt="تصویر 1">
+            </div>
+            <div class="slide">
+                <img src="assets/images/katrin/banner_Product02.svg" alt="تصویر 2">
+            </div>
+            <div class="slide">
+                <img src="assets/images/katrin/banner_Product03.svg" alt="تصویر 3">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="slide1" class="nav-dot"></label>
+            <label for="slide2" class="nav-dot"></label>
+            <label for="slide3" class="nav-dot"></label>
+        </div>
+    </div>
+
+    
+</body>
+</html>
