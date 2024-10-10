@@ -1,5 +1,18 @@
+/* تعریف متغیرهای رنگ‌ها */
+:root {
+    --red-color: #A91825;
+    --white-color: #E6E2D9;
+    --cream-color: #E4D1B3;
+    --dark-cream-color: #BD7346;
+    --brown-color: #673304;
+    --green-color: #218838;
+    --green-hover-color: #28a745;
+    --dark-green-color: #384d26;
+}
+
 * {
-    font-family: Yekan Bakh FaNum;
+    font-family: yekanbakhsh;
+    margin: 0;
 }
 a {
     text-decoration: unset;
