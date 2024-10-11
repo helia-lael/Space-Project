@@ -1,0 +1,39 @@
+index:
+https://www.figma.com/design/dhRrshuvOtAfOKSnenimGJ/index?node-id=317-142&node-type=frame&t=EFAnuN3NQzlQ
+
+---------
+space:
+https://www.figma.com/design/jROqBexPQCC8xPf9ktlxur/SpaceTeam?node-id=0-1&node-type=canvas&t=EvMYlkC9BuZlaKX4-0
+---------
+
+log in:
+https://www.figma.com/design/Fqt4TABGs2mWr0wNQ9OGNp/log-in?node-id=0-1&node-type=canvas&t=Ye8bs3u81tr3vKrz-0
+
+contact:
+https://www.figma.com/design/g46xBdtBNubxrK4lN2YnMz/Contact?node-id=0-1&node-type=canvas&t=n85TsAXzphzJSq7B-0
+
+About Us:
+https://www.figma.com/design/4WqOd0Cww8VJwM6gmQIYKu/about?node-id=0-1&node-type=canvas&t=GgwtlZishXDWeQgx-0
+
+Services/Products:
+https://www.figma.com/design/7HsNpu0wEzMbtYmx4wcR3K/product?node-id=0-1&node-type=canvas&t=wljMRDLTqE7nmgXq-0
+
+payment:
+https://www.figma.com/design/w5lG5W9ONRxK4cHMABdEW6/payment?node-id=0-1&node-type=canvas&t=58UNoQAtUgL0dn1v-0
+
+Product Detail:
+https://www.figma.com/design/qieuZlDiXLmCEAnDk7xepF/Product-Detail?node-id=0-1&node-type=canvas&t=CyVdlZ1TN7DdVGbx-0
+
+Terms and Conditions:
+https://www.figma.com/design/4PkZeXicvaTrk9ovLoG1fL/Terms-and-Conditions?node-id=0-1&node-type=canvas&t=UeFfVHkEN5utboqw-0
+
+Blog/Articles:
+https://www.figma.com/design/UApDeAuQfQYCHInGZKeeHv/Articles?node-id=0-1&node-type=canvas&t=ap8sv60uDPzivHrF-0
+
+FAQ:
+https://www.figma.com/design/FtnBxElZGQkvKmVnarK6Po/FAQ?node-id=0-1&node-type=canvas&t=ScaAsqX86MWhp7by-0
+
+Shopping Cart:
+https://www.figma.com/design/8ik96WU8jwNEYBoxfLjmuP/shoping-card?node-id=0-1&node-type=canvas&t=ZUcMwrROaWi77yJq-0
+
+
