@@ -58,7 +58,7 @@ project-root/
 
 ## 👥 اعضای تیم
 - **مهدیه آبیار**  
-  نقش: مدیر پروژه، توسعه‌دهنده فرانت‌اند  
+  نقش: مدیر پروژه، توسعه‌دهنده فرانت‌اند  ،دیزاینر
   تخصص: مدیریت زمان، مدیریت تیم، HTML, CSS  
   [LinkedIn](https://www.linkedin.com/in/mahdiyeh-abiyar-ba2440319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub](https://github.com/mahdiyeh-abiyar)
 
