@@ -87,6 +87,15 @@
     .timer__button{font-size: 10px;}
     /* مقاله  */
     .article-card{width: 20%;}
+
+
+    .search-bar__input {
+        width: 85%;
+      }
+    
+      .search-bar__button, .search-bar__filter {
+        height: 45px;
+      }
 }
 
 
@@ -131,6 +140,18 @@
         margin: 10% 0;
     }
     .footer__contact{display: block;}
+
+
+    .search-bar {
+        padding: 8px;
+      }
+      .search-bar__input, .search-bar__button, .search-bar__filter {
+        height: 40px;
+      }
+    
+      .search-bar__button, .search-bar__filter {
+        padding: 8px;
+      }
 }
 
 
@@ -284,6 +305,17 @@
             width: 80px;
         }
     }
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    /* Hide search bar on smaller screens */
+    .search-bar {
+      display: none;
+    }
+  }
     
   /*___________________ برای گوشی‌های با عرض بین 480 تا 768 پیکسل ________________________*/
 
@@ -433,6 +465,10 @@
             margin: 10% 0;
         }
         .footer__contact{display: block;}
+
+
+
+        
     }
     
   /* ____________________برای گوشی‌های با عرض کمتر از 480 پیکسل ___________________________*/
@@ -606,11 +642,10 @@
      /*=============
           product PAGE
           =============*/
-        .search-bar{display: none;}
+        
         .collection__filter{font-size: 10px;}
         .products__nav{width: 20px;
             font-size: 10px;
-        
 }
           
   /* ____________________برای گوشی‌های با عرض کمتر از 320 پیکسل ____________________________*/
