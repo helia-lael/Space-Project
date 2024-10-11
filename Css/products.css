@@ -37,6 +37,7 @@ body {
     width: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
+    margin-top: ;
 }
 
 .slide {
@@ -121,7 +122,7 @@ input[type="radio"]:checked + .navigation .nav-dot {
   background-color:var(--cream-color);
   padding: 10px;
   border-radius: 0px;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-bottom: 1%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -388,21 +389,46 @@ input[type="radio"]:checked + .navigation .nav-dot {
     /* background-color: white; */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
   .feature__icon {
     width: 50px;
     height: auto;
     margin-bottom: 15px;
+    transition: transform 0.3s ease;
   }
   .feature__title {
     font-size: 18px;
     color:var(--dark-green-color);
     margin-bottom: 10px;
+    transition: color 0.3s ease;
+
   }
   .feature__description {
     font-size: 14px;
     color: #666;
   }
+
+  /* Animation on hover */
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: var(--cream-color);
+}
+
+.feature:hover .feature__icon {
+  transform: scale(1.2);
+}
+
+.feature:hover .feature__title {
+  color: var(--green-color);
+}
+
+.feature:hover .feature__description {
+  color: var(--brown-color);
+}
+  
   
 
   /* استایل کلی برای فوتر */
