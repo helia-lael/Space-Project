@@ -64,7 +64,7 @@ project-root/
   تخصص: مدیریت زمان، مدیریت تیم، HTML, CSS  
   [LinkedIn](https://www.linkedin.com/in/mahdiyeh-abiyar-ba2440319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub](https://github.com/mahdiyeh-abiyar)
 
-- **حدیث صبوری**  
+- **محدثه صبوری مطلق**  
   نقش: نویسنده محتوا، طراح گرافیک  
   تخصص: طراحی ظاهر وب سایت با figma  
   [LinkedIn](https://www.linkedin.com/in/hadis-sabouri-463577310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub](https://github.com/hadismotlagh84)
