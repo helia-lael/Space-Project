@@ -60,16 +60,16 @@ project-root/
 
 ## 👥 اعضای تیم
 - **مهدیه آبیار**  
-  نقش: مدیر پروژه، توسعه‌دهنده فرانت‌اند،دیزاینر
+  نقش: مدیر پروژه، توسعه‌دهنده فرانت‌اند
   تخصص: مدیریت زمان، مدیریت تیم، HTML, CSS  
   [LinkedIn](https://www.linkedin.com/in/mahdiyeh-abiyar-ba2440319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub](https://github.com/mahdiyeh-abiyar)
 
 - **حدیث صبوری**  
   نقش: نویسنده محتوا، طراح گرافیک  
-  تخصص: Figma  
+  تخصص: طراحی ظاهر وب سایت با figma  
   [LinkedIn](https://www.linkedin.com/in/hadis-sabouri-463577310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [GitHub](https://github.com/hadismotlagh84)
 
 - **هلیا لعل نور**  
-  نقش: توسعه‌دهنده فرانت‌اند  
+  نقش: توسعه‌دهنده فرانت‌اند، ایده پرداز 
   تخصص: HTML، CSS  
   [LinkedIn](https://www.linkedin.com/in/helia-laalnour-92a7b3311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | [GitHub](https://github.com/helia-lael)
